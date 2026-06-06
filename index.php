@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica Full Stack</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .links {
+            margin-top: 30px;
+        }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .links a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Práctica 4 - Desarrollo Full Stack</h1>
+    <h2>Maquetación Web Nativa vs Framework</h2>
+    <div class="links">
+        <a href="indexDos.html">Ver versión Nativa (HTML5 + CSS)</a>
+        <a href="indesBoststrap.html">Ver versión con Bootstrap</a>
+    </div>
+</body>
+</html>
